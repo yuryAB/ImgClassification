@@ -10,63 +10,22 @@
 		D01211AB254F466500F4423B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01211AA254F466500F4423B /* AppDelegate.swift */; };
 		D01211AD254F466500F4423B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01211AC254F466500F4423B /* SceneDelegate.swift */; };
 		D01211AF254F466500F4423B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01211AE254F466500F4423B /* ViewController.swift */; };
-		D01211B2254F466500F4423B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01211B0254F466500F4423B /* Main.storyboard */; };
 		D01211B4254F466500F4423B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01211B3254F466500F4423B /* Assets.xcassets */; };
 		D01211B7254F466500F4423B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01211B5254F466500F4423B /* LaunchScreen.storyboard */; };
-		D01211C2254F466500F4423B /* ImgClassificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01211C1254F466500F4423B /* ImgClassificationTests.swift */; };
-		D01211CD254F466500F4423B /* ImgClassificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01211CC254F466500F4423B /* ImgClassificationUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D01211BE254F466500F4423B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D012119F254F466400F4423B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D01211A6254F466500F4423B;
-			remoteInfo = ImgClassification;
-		};
-		D01211C9254F466500F4423B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D012119F254F466400F4423B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D01211A6254F466500F4423B;
-			remoteInfo = ImgClassification;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D01211A7254F466500F4423B /* ImgClassification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImgClassification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01211AA254F466500F4423B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D01211AC254F466500F4423B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D01211AE254F466500F4423B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D01211B1254F466500F4423B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D01211B3254F466500F4423B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01211B6254F466500F4423B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01211B8254F466500F4423B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D01211BD254F466500F4423B /* ImgClassificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgClassificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D01211C1254F466500F4423B /* ImgClassificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgClassificationTests.swift; sourceTree = "<group>"; };
-		D01211C3254F466500F4423B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D01211C8254F466500F4423B /* ImgClassificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgClassificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D01211CC254F466500F4423B /* ImgClassificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgClassificationUITests.swift; sourceTree = "<group>"; };
-		D01211CE254F466500F4423B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D01211A4254F466500F4423B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01211BA254F466500F4423B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01211C5254F466500F4423B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				D01211A9254F466500F4423B /* ImgClassification */,
-				D01211C0254F466500F4423B /* ImgClassificationTests */,
-				D01211CB254F466500F4423B /* ImgClassificationUITests */,
 				D01211A8254F466500F4423B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				D01211A7254F466500F4423B /* ImgClassification.app */,
-				D01211BD254F466500F4423B /* ImgClassificationTests.xctest */,
-				D01211C8254F466500F4423B /* ImgClassificationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,30 +57,11 @@
 				D01211AA254F466500F4423B /* AppDelegate.swift */,
 				D01211AC254F466500F4423B /* SceneDelegate.swift */,
 				D01211AE254F466500F4423B /* ViewController.swift */,
-				D01211B0254F466500F4423B /* Main.storyboard */,
 				D01211B3254F466500F4423B /* Assets.xcassets */,
 				D01211B5254F466500F4423B /* LaunchScreen.storyboard */,
 				D01211B8254F466500F4423B /* Info.plist */,
 			);
 			path = ImgClassification;
-			sourceTree = "<group>";
-		};
-		D01211C0254F466500F4423B /* ImgClassificationTests */ = {
-			isa = PBXGroup;
-			children = (
-				D01211C1254F466500F4423B /* ImgClassificationTests.swift */,
-				D01211C3254F466500F4423B /* Info.plist */,
-			);
-			path = ImgClassificationTests;
-			sourceTree = "<group>";
-		};
-		D01211CB254F466500F4423B /* ImgClassificationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D01211CC254F466500F4423B /* ImgClassificationUITests.swift */,
-				D01211CE254F466500F4423B /* Info.plist */,
-			);
-			path = ImgClassificationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +84,6 @@
 			productReference = D01211A7254F466500F4423B /* ImgClassification.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D01211BC254F466500F4423B /* ImgClassificationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D01211D4254F466500F4423B /* Build configuration list for PBXNativeTarget "ImgClassificationTests" */;
-			buildPhases = (
-				D01211B9254F466500F4423B /* Sources */,
-				D01211BA254F466500F4423B /* Frameworks */,
-				D01211BB254F466500F4423B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D01211BF254F466500F4423B /* PBXTargetDependency */,
-			);
-			name = ImgClassificationTests;
-			productName = ImgClassificationTests;
-			productReference = D01211BD254F466500F4423B /* ImgClassificationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D01211C7254F466500F4423B /* ImgClassificationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D01211D7254F466500F4423B /* Build configuration list for PBXNativeTarget "ImgClassificationUITests" */;
-			buildPhases = (
-				D01211C4254F466500F4423B /* Sources */,
-				D01211C5254F466500F4423B /* Frameworks */,
-				D01211C6254F466500F4423B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D01211CA254F466500F4423B /* PBXTargetDependency */,
-			);
-			name = ImgClassificationUITests;
-			productName = ImgClassificationUITests;
-			productReference = D01211C8254F466500F4423B /* ImgClassificationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +95,6 @@
 				TargetAttributes = {
 					D01211A6254F466500F4423B = {
 						CreatedOnToolsVersion = 12.0.1;
-					};
-					D01211BC254F466500F4423B = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = D01211A6254F466500F4423B;
-					};
-					D01211C7254F466500F4423B = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = D01211A6254F466500F4423B;
 					};
 				};
 			};
@@ -220,8 +112,6 @@
 			projectRoot = "";
 			targets = (
 				D01211A6254F466500F4423B /* ImgClassification */,
-				D01211BC254F466500F4423B /* ImgClassificationTests */,
-				D01211C7254F466500F4423B /* ImgClassificationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +123,6 @@
 			files = (
 				D01211B7254F466500F4423B /* LaunchScreen.storyboard in Resources */,
 				D01211B4254F466500F4423B /* Assets.xcassets in Resources */,
-				D01211B2254F466500F4423B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01211BB254F466500F4423B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01211C6254F466500F4423B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,46 +139,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D01211B9254F466500F4423B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D01211C2254F466500F4423B /* ImgClassificationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D01211C4254F466500F4423B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D01211CD254F466500F4423B /* ImgClassificationUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		D01211BF254F466500F4423B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D01211A6254F466500F4423B /* ImgClassification */;
-			targetProxy = D01211BE254F466500F4423B /* PBXContainerItemProxy */;
-		};
-		D01211CA254F466500F4423B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D01211A6254F466500F4423B /* ImgClassification */;
-			targetProxy = D01211C9254F466500F4423B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		D01211B0254F466500F4423B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D01211B1254F466500F4423B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D01211B5254F466500F4423B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASRK7R7UY8;
 				INFOPLIST_FILE = ImgClassification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ASRK7R7UY8;
 				INFOPLIST_FILE = ImgClassification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,86 +304,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D01211D5254F466500F4423B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ImgClassificationTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Yury.ImgClassificationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImgClassification.app/ImgClassification";
-			};
-			name = Debug;
-		};
-		D01211D6254F466500F4423B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ImgClassificationTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Yury.ImgClassificationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImgClassification.app/ImgClassification";
-			};
-			name = Release;
-		};
-		D01211D8254F466500F4423B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ImgClassificationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Yury.ImgClassificationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ImgClassification;
-			};
-			name = Debug;
-		};
-		D01211D9254F466500F4423B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ImgClassificationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Yury.ImgClassificationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ImgClassification;
 			};
 			name = Release;
 		};
@@ -564,24 +324,6 @@
 			buildConfigurations = (
 				D01211D2254F466500F4423B /* Debug */,
 				D01211D3254F466500F4423B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D01211D4254F466500F4423B /* Build configuration list for PBXNativeTarget "ImgClassificationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D01211D5254F466500F4423B /* Debug */,
-				D01211D6254F466500F4423B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D01211D7254F466500F4423B /* Build configuration list for PBXNativeTarget "ImgClassificationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D01211D8254F466500F4423B /* Debug */,
-				D01211D9254F466500F4423B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
