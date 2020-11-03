@@ -12,6 +12,8 @@
 		D01211AF254F466500F4423B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01211AE254F466500F4423B /* ViewController.swift */; };
 		D01211B4254F466500F4423B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01211B3254F466500F4423B /* Assets.xcassets */; };
 		D01211B7254F466500F4423B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01211B5254F466500F4423B /* LaunchScreen.storyboard */; };
+		D092ED062550A71C00407651 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D092ED052550A71C00407651 /* SqueezeNet.mlmodel */; };
+		D092ED092550B2FC00407651 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D092ED082550B2FC00407651 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D01211B3254F466500F4423B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01211B6254F466500F4423B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01211B8254F466500F4423B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D092ED052550A71C00407651 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../../../Downloads/SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		D092ED082550B2FC00407651 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		D01211A9254F466500F4423B /* ImgClassification */ = {
 			isa = PBXGroup;
 			children = (
+				D092ED082550B2FC00407651 /* Resnet50.mlmodel */,
+				D092ED052550A71C00407651 /* SqueezeNet.mlmodel */,
 				D01211AA254F466500F4423B /* AppDelegate.swift */,
 				D01211AC254F466500F4423B /* SceneDelegate.swift */,
 				D01211AE254F466500F4423B /* ViewController.swift */,
@@ -133,9 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D092ED092550B2FC00407651 /* Resnet50.mlmodel in Sources */,
 				D01211AF254F466500F4423B /* ViewController.swift in Sources */,
 				D01211AB254F466500F4423B /* AppDelegate.swift in Sources */,
 				D01211AD254F466500F4423B /* SceneDelegate.swift in Sources */,
+				D092ED062550A71C00407651 /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
