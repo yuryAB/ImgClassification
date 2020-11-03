@@ -10,13 +10,20 @@ import AVKit
 import Vision
 
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
+    
+    let identifierLabel: UILabel = {
+        let label = UILabel()
+        label.backgroundColor = .white
+        label.textAlignment = .center
+        label.textColor = .black
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //view.backgroundColor = .black
         
-        
-        //here is where we start up the camera
         let captureSession = AVCaptureSession()
         captureSession.sessionPreset = .photo
         
@@ -40,10 +47,19 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         dataOutput.setSampleBufferDelegate(self, queue: DispatchQueue(label: "videoQueue"))
         captureSession.addOutput(dataOutput)
+        
+        setupIdentifierConfidenceLabel()
     }
     
-    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection)
- {
+    fileprivate func setupIdentifierConfidenceLabel() {
+        view.addSubview(identifierLabel)
+        identifierLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -32).isActive = true
+        identifierLabel.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        identifierLabel.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        identifierLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
+    }
+    
+    func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
         
         guard let buffer:CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
             return
@@ -55,7 +71,9 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         let request = VNCoreMLRequest(model: model){ (finishedReq, err) in
             guard let results = finishedReq.results as? [VNClassificationObservation] else {return}
             guard let firstObservation = results.first else {return}
-            print(firstObservation.identifier, firstObservation.confidence)
+            DispatchQueue.main.async {
+                self.identifierLabel.text = "\(firstObservation.identifier) \(firstObservation.confidence * 100)"
+            }
         }
         try? VNImageRequestHandler(cvPixelBuffer: buffer, options: [:]).perform([request])
     }
